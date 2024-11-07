@@ -5,11 +5,11 @@ public interface ServiceATM {
 
     void changePin(Card card);
 
-    void balance(Card card);
+    void getBalance(Card card);
 
     void withdraw(Card card);
 
-    void tocount(Card card);
+    void toCount(Card card);
 
     boolean checkPin(Card card);
 
